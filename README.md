@@ -1,54 +1,54 @@
 # Consent Mode v2 & NZ Privacy Act 2020 Framework | TAVARDT New Zealand
 
-[![Validador de Consentimento](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-New Zealand-00C853.svg)](https://ag.tavardt.com/nz/cybersecurity/)
+[![Technical%20Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-New Zealand-00C853.svg)](https://ag.tavardt.com/nz/cybersecurity/)
 
-Google Consent Mode v2 implementation, tag sequencing, and Information Privacy Principles (NZ Privacy Act 2020) compliance framework for New Zealand.
+Technical implementation of Google Consent Mode v2 and telemetry controls aligned with Information Privacy Principles of the New Zealand Privacy Act 2020.
 
-Desenvolvido e mantido pela divisão de privacidade digital e engenharia de dados da **[TAVARDT New Zealand](https://ag.tavardt.com/nz/)**.
+Developed and maintained by the cybersecurity and digital sovereignty division of **[TAVARDT New Zealand](https://ag.tavardt.com/nz/)**.
 
 ---
 
-## 1. Execution Order & Architecture
+## 1. Execution Order and Architecture
 
-Embed this script within the `<head>` of your website immediately prior to loading Google Tag Manager or analytics containers:
+Insert this script as the first child of <head> before loading Google Tag Manager to ensure lawful telemetry execution in New Zealand:
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- O contentor do Google Tag Manager ou scripts de medição seguem aqui -->
+<!-- Google Tag Manager / measurement scripts execute here -->
 ```
 
 ---
 
 ## 2. Technical Capabilities
 
-* **Denied by Default:** Initializes ad and analytics storage parameters to 'denied' before executing client scripts.
-* **Consent Update Mechanism:** Provides window.tavardtUpdateConsent() to trigger the tavardt_consent_updated event.
-* **Ads Data Redaction:** Enables ads_data_redaction to prevent transmission of click identifiers when consent is absent.
-* **URL Passthrough:** Configures url_passthrough to preserve conversion attribution without unauthorized cookies.
+* **Default Denied Baseline:** ad_storage and analytics_storage held in denied state pending explicit user consent.
+* **Event-Driven DataLayer Push:** Window-level interface updating the Google tag consent state deterministically.
+* **Advertising Parameter Redaction:** Enforces ads_data_redaction for ad attribution without user-level tracking.
+* **URL Parameter Passthrough:** Integrates url_passthrough for aggregate traffic analysis without client persistence.
 
 ---
 
-## 3. Technical Audit Checklist
+## 3. Compliance Checklist & Documentation
 
-Consulte a lista detalhada de requisitos técnicos para este país:
+Review the comprehensive technical requirements for New Zealand:
 
-* [Checklist Técnico de Conformidade](checklist.md)
+* [Checklist](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 
 ---
 
 ## 4. Online Diagnostic Tools (New Zealand)
 
-Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramentas online verificadas:
+Verify your digital infrastructure against technical baselines using the TAVARDT New Zealand suite:
 
 * [Consent Mode v2 & Privacy Act Validator](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 * [HTTP Security Headers Checker](https://tools.tavardt.com/nz/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/nz/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/nz/exposed-files-scanner/)
-* [Full New Zealand Diagnostic Portal](https://tools.tavardt.com/nz/)
+* [Full New Zealand Tools Portal](https://tools.tavardt.com/nz/)
 
 ---
 
-## 5. Tag Governance & Privacy Advisory
+## 5. Technical Advisory & Remediation
 
-For tag governance, conversion optimization, and New Zealand Privacy Act alignment, contact **[TAVARDT New Zealand](https://ag.tavardt.com/nz/contact/)**.
+For New Zealand Privacy Act compliance, analytics tag auditing, and digital governance consulting, contact **[TAVARDT New Zealand](https://ag.tavardt.com/nz/contact/)**.
