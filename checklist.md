@@ -1,25 +1,31 @@
 # New Zealand Privacy Principles & Tag Governance Checklist
 
-**Regulatory Standard:** New Zealand Privacy Act 2020 (IPPs) & CERT NZ  
-**Maintained by:** [TAVARDT New Zealand](https://ag.tavardt.com/nz/)  
+**Marco Regulatório:** New Zealand Privacy Act 2020 (IPPs) & CERT NZ  
+**Mantido por:** [TAVARDT New Zealand](https://ag.tavardt.com/nz/)  
 
 ---
 
-## Technical Audit Points
+## Verificações Técnicas Obrigatórias
 
-* **IPP 1 & IPP 3 Compliance:** Collect personal metadata only for lawful and transparent purposes.
-* **Denied by Default:** Initialize ad and analytics storage parameters to 'denied' before executing client scripts.
-* **Secure Measurement:** Enable ads_data_redaction to prevent transmission of click identifiers when consent is absent.
-* **Cross-Border Disclosure (IPP 12):** Restrict telemetry transmissions to jurisdictions with comparable privacy safeguards.
+* **IPP 1 & IPP 3 Compliance:** Collect personal metadata strictly for lawful and transparent business purposes.
+* **Default Consent State:** Ensure storage parameters default to 'denied' prior to user interaction.
+* **Cross-Border Transmission Controls:** Audit telemetry to ensure data disclosures adhere to IPP 12 safeguards.
+* **GTM Trigger Sequencing:** Configure marketing tags to fire strictly following affirmative consent signals.
 
 ---
 
-## Online Verification Tools
+## Ferramentas Técnicas Online
 
-Validate your tag deployment and perimeter security using TAVARDT diagnostic suites:
+Valide a implementação das suas etiquetas utilizando a suíte de diagnósticos da TAVARDT:
 
+* [Consent Mode v2 & Privacy Act Validator](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 * [HTTP Security Headers Checker](https://tools.tavardt.com/nz/security-headers-check/)
-* [Exposed Secret & Credential Scanner](https://tools.tavardt.com/nz/exposed-files-scanner/)
-* [Full Diagnostic Suite](https://tools.tavardt.com/nz/)
+* [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/nz/dmarc-checker/)
+* [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/nz/exposed-files-scanner/)
+* [Full New Zealand Diagnostic Portal](https://tools.tavardt.com/nz/)
 
-For professional privacy architecture, tag auditing, and CRO optimization, contact [TAVARDT New Zealand](https://ag.tavardt.com/nz/contact/).
+---
+
+## Consultoria Especializada
+
+For tag governance, conversion optimization, and New Zealand Privacy Act alignment, contact **[TAVARDT New Zealand](https://ag.tavardt.com/nz/contact/)**.
