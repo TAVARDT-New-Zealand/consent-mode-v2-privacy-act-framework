@@ -3,7 +3,7 @@
 [![Technical%20Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 Technical implementation of Google Consent Mode v2 and telemetry controls aligned with Information Privacy Principles of the New Zealand Privacy Act 2020.
 
-Developed and maintained by the cybersecurity and digital sovereignty division of **TAVARDT New Zealand**.
+Developed and maintained by the cybersecurity and digital sovereignty division of **TAVARDT**.
 
 ***
 
@@ -37,7 +37,7 @@ Review the comprehensive technical requirements for New Zealand:
 
 ## 4. Online Diagnostic Tools (New Zealand)
 
-Verify your digital infrastructure against technical baselines using the TAVARDT New Zealand suite:
+Verify your digital infrastructure against technical baselines using the TAVARDT suite:
 
 * Consent Mode v2 & Privacy Act Validator
 * [HTTP Security Headers Checker](https://tools.tavardt.com/nz/security-headers-check/)
@@ -49,7 +49,7 @@ Verify your digital infrastructure against technical baselines using the TAVARDT
 
 ## 5. Technical Advisory & Remediation
 
-For New Zealand Privacy Act compliance, analytics tag auditing, and digital governance consulting, contact **TAVARDT New Zealand**.
+For New Zealand Privacy Act compliance, analytics tag auditing, and digital governance consulting, contact **TAVARDT**.
 
 ***
 
