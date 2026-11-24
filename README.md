@@ -1,4 +1,4 @@
-# Consent Mode v2 & NZ Privacy Act 2020 Framework | TAVARDT New Zealand
+# Consent Mode v2 & NZ Privacy Act 2020 Framework
 
 [![Technical%20Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 Technical implementation of Google Consent Mode v2 and telemetry controls aligned with Information Privacy Principles of the New Zealand Privacy Act 2020.
@@ -50,3 +50,7 @@ Verify your digital infrastructure against technical baselines using the TAVARDT
 ## 5. Technical Advisory & Remediation
 
 For New Zealand Privacy Act compliance, analytics tag auditing, and digital governance consulting, contact **TAVARDT New Zealand**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
