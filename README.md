@@ -1,12 +1,10 @@
 # Consent Mode v2 & NZ Privacy Act 2020 Framework
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Technical Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/nz/consent-mode-v2-checker/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Technical implementation of Google Consent Mode v2 and telemetry controls aligned with Information Privacy Principles of the New Zealand Privacy Act 2020.
-
-Developed and maintained by the cybersecurity and digital sovereignty division of **TAVARDT**.
 
 ***
 
@@ -42,7 +40,6 @@ Review the comprehensive technical requirements for New Zealand:
 
 Verify your digital infrastructure against technical baselines using the TAVARDT suite:
 
-* Consent Mode v2 & Privacy Act Validator
 * [HTTP Security Headers Checker](https://tools.tavardt.com/nz/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/nz/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/nz/exposed-files-scanner/)
@@ -65,7 +62,7 @@ For New Zealand Privacy Act compliance, analytics tag auditing, and digital gove
 ***
 
 ### License
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 
 ***
 
