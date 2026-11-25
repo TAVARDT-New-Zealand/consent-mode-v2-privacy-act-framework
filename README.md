@@ -28,32 +28,23 @@ Insert this script as the first child of <head> before loading Google Tag Manage
 
 ***
 
-## 3. Compliance Checklist & Documentation
-
-Review the comprehensive technical requirements for New Zealand:
-
-* Checklist
-
-***
-
-## 4. Online Diagnostic Tools (New Zealand)
+## 3. Online Diagnostic Tools (New Zealand)
 
 Verify your digital infrastructure against technical baselines using the TAVARDT suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/nz/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/nz/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/nz/exposed-files-scanner/)
-* [Full New Zealand Tools Portal](https://tools.tavardt.com/nz/)
 
 ***
 
-## 5. Technical Advisory & Remediation
+## 4. Technical Advisory & Remediation
 
 For New Zealand Privacy Act compliance, analytics tag auditing, and digital governance consulting, contact **TAVARDT**.
 
 ***
 
-## Useful Links
+## 5. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/nz/
 * **Diagnostic Suite:** https://tools.tavardt.com/nz/
